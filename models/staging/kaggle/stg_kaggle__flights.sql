@@ -1,4 +1,4 @@
--- models/flights.sql
+-- models/staging/kaggle/stg_kaggle__flights.sql
 
 {{ config(
     materialized='table'
