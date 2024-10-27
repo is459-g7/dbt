@@ -5,4 +5,4 @@
 ) }}
 
 SELECT COUNT(*) AS flight_count
-FROM flight_data.flights;
+FROM {{ source('kaggle', 'flights') }}

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: kaggle
+    database: dev
+    schema: flight_data
+    tables:
+      - name: flights
