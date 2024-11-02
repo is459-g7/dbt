@@ -1,0 +1,12 @@
+name: is459_redshift_project
+version: 1.0
+profile: is459-redshift-db
+
+model-paths: ["models"]
+
+models:
+    is459_redshift_project:
+        intermediate:
+            +enabled: true
+            kaggle:
+                +enabled: true
